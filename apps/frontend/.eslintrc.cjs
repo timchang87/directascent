@@ -6,7 +6,7 @@ module.exports = {
     'airbnb-typescript',
     '../../.eslintrc.cjs',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'index.html'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'index.html', '**/*.scss'],
   plugins: ['react-refresh', 'react'],
   rules: {
     'react-refresh/only-export-components': [

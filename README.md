@@ -1,7 +1,15 @@
-# vite-boilerplate
+# Direct Ascent
 
-Vite, React, Node, Express, TypeScript, SSL, and Docker
+Direct Ascent is a responsive investment platform, providing the average retail investor with a modern toolchain.
 
-# Notes
+# Installation
 
-- No docker compose watch installed and it cannot ignore backend in frontend service sync
+1. Run
+
+# Tech Stack
+
+- Typescript
+- React
+- Node.js
+- Express
+- PostgreSQL

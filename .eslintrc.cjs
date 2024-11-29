@@ -11,11 +11,12 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig.json',
+    extraFileExtensions: ['.scss'],
   },
   plugins: [],
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+
     '@typescript-eslint/no-unnecessary-condition': 'error',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',

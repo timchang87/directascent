@@ -1,16 +1,15 @@
-import axios from 'axios';
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
+import { Routes, Route } from 'react-router';
+import LandingPage from './pages/LandingPage/LandingPage';
+// import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 
 const App: FC = () => {
-  useEffect(() => {
-    axios.get('/api/test').then(function (response) {
-      console.log(response);
-    });
-  }, []);
   return (
-    <div>
-      <h1>Hello, World!!!</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </>
   );
 };
 
